@@ -1,6 +1,7 @@
 #include <iostream>
+#include <string>
 
-void print(char str[])
+void print(std::string str)
 {
     std::cout<<str;
 }
