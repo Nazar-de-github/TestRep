@@ -1,9 +1,14 @@
 #include <iostream>
 
+void print(char[] str)
+{
+    std::cout<<str;
+}
+
 int main()
 {
 
-    std::cout<<"Hello world!!!";
+    print("Hello world");
 
     return 0;
 }
