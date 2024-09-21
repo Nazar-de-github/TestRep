@@ -1,15 +1,19 @@
 #include <iostream>
 #include <string>
 
-void print(std::string str)
+void print(std::string str, int count)
 {
-    std::cout<<str;
+    for(int i = 0; i < count; ++i)
+    {
+        std::cout<<str<<"\n";
+    }
+    
 }
 
 int main()
 {
 
-    print("Hello world");
+    print("Hello world", 5);
 
     return 0;
 }
